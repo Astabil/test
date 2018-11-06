@@ -9,7 +9,7 @@ def test_numpy():
     try:
         import numpy as np
     except ImportError:
-        print("Could not import numpy -> numpy failed")
+        print("Could not  numpy -> numpy failed")
         return None
     # Simple test
     a = np.arange(0, 100, 1)
